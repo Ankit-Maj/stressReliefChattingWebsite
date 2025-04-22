@@ -9,8 +9,8 @@ import requests
 st.set_page_config(page_title="Serenity", page_icon="💌", layout="centered")
 
 # --------------- API SETTINGS ------------------
-API_URL = "API_URL"
-API_KEY = "API_KEY"  # Replace this with your actual OpenRouter API key
+API_URL = st.secrets["API_URL"]
+API_KEY = st.secrets["API_KEY"]  # Replace this with your actual OpenRouter API key
 MODEL = "google/gemini-2.0-flash-exp:free"
 
 
