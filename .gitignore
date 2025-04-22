@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# Secrets and credentials
+.secrets.toml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter/IPython checkpoints (if used)
+.ipynb_checkpoints/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Node modules (in case any frontend tools used)
+node_modules/
+
+# PyInstaller
+*.spec
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
