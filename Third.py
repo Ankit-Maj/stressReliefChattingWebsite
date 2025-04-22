@@ -9,8 +9,8 @@ import requests
 st.set_page_config(page_title="Serenity", page_icon="💌", layout="centered")
 
 # --------------- API SETTINGS ------------------
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"  # Replace this with your actual OpenRouter API key
+API_URL = "API_URL"
+API_KEY = "API_KEY"  # Replace this with your actual OpenRouter API key
 MODEL = "google/gemini-2.0-flash-exp:free"
 
 
